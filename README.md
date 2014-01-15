@@ -14,9 +14,9 @@ Import `font-awesome-stylus` in your project and configure fonts path correctly 
 ## Usage
 
 ```
-$fa-font-path = "your fonts path"
-
 @import "font-awesome-stylus"
+
+$fa-font-path = "your fonts path"
 
 // icons in the project
 .{$fa-css-prefix}-glass
