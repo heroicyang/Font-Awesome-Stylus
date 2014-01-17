@@ -8,7 +8,8 @@ Font-Awesome-Stylus
 **Require Stylus `~0.39.0`**
 
 ```bash
-git clone https://github.com/heroicyang/Font-Awesome-Stylus.git /to/project/stylus/font-awesome-stylus
+git submodule add https://github.com/heroicyang/Font-Awesome-Stylus.git /project/styl/font-awesome-stylus
+# Or download this project and copy to your project.
 ```
 
 Import `font-awesome-stylus` in your project and configure fonts path correctly (`$fa-font-path`).
