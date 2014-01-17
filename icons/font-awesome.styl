@@ -24,7 +24,7 @@
  */
 fa-icon($icon, $position="before")
   &:{$position}
-    content $fa-icons[{$icon}]
+    content $fa-icons[$icon]
 
 /**
  * Enable all icons
@@ -32,4 +32,4 @@ fa-icon($icon, $position="before")
 import-all-icons()
   for icon in $fa-icons
     .{$fa-css-prefix}-{icon}
-      fa-icon({icon})
+      fa-icon(icon)

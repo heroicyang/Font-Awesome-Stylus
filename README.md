@@ -3,7 +3,9 @@ Font-Awesome-Stylus
 
 > Stylus port for Font-Awesome 4.x, and use icons as your needed.
 
-## Install
+## Getting Started
+
+**Require Stylus `~0.39.0`**
 
 ```bash
 git clone https://github.com/heroicyang/Font-Awesome-Stylus.git /to/your\ project/stylus/
