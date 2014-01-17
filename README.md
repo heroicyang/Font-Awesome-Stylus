@@ -8,7 +8,7 @@ Font-Awesome-Stylus
 **Require Stylus `~0.39.0`**
 
 ```bash
-git clone https://github.com/heroicyang/Font-Awesome-Stylus.git /to/your\ project/stylus/
+git clone https://github.com/heroicyang/Font-Awesome-Stylus.git /to/project/stylus/font-awesome-stylus
 ```
 
 Import `font-awesome-stylus` in your project and configure fonts path correctly (`$fa-font-path`).
@@ -16,10 +16,11 @@ Import `font-awesome-stylus` in your project and configure fonts path correctly 
 ## Usage
 
 ```
-$fa-font-path = "your fonts path"
-
 @import "font-awesome-stylus"
 
+$fa-font-path = "your fonts path"
+
+// icons in the project
 .{$fa-css-prefix}-glass
   fa-icon("glass")
 
