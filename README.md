@@ -7,10 +7,16 @@ Font-Awesome-Stylus
 
 **Require Stylus `~0.39.0`**
 
+### Git Submodule
+
 ```bash
 git submodule add https://github.com/heroicyang/Font-Awesome-Stylus.git /project/styl/font-awesome-stylus
-# Or download this project and copy to your project.
 ```
+### Download
+
+Or [download](https://github.com/heroicyang/Font-Awesome-Stylus/archive/master.zip) and copy to your project.
+
+### Initialization
 
 Import `font-awesome-stylus` in your project and configure fonts path correctly (`$fa-font-path`).
 
